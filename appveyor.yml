@@ -2,8 +2,7 @@ version: 1.0.{build}
 
 
 
-environment:
-  USERNAME: Sandhiya
-
 build_script:
-  - echo %USERNAME%
+  - javac Hello.java
+  - java Hello
+
