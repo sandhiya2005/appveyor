@@ -1,9 +1,4 @@
 version: 1.0.{build}
 
-build: off
-
-install:
-  - echo Installing dependencies
-
-build_script:
-  - echo Hello appveyor
+before_build:
+  - del *.class
