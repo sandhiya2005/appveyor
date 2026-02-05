@@ -1,4 +1,7 @@
 version: 1.0.{build}
+artifacts:
+  - path: Hello.class
+
 
 
 
