@@ -6,6 +6,7 @@ artifacts:
 
 
 build_script:
-  - javac Hello.java
-  - java Hello
+  - echo Checkout Stage
+  - echo Build Stage
+  - echo Test Stage
 
