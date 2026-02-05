@@ -1,6 +1,9 @@
 version: 1.0.{build}
 
 
+
+environment:
+  USERNAME: Sandhiya
+
 build_script:
-  - echo "This is AppVeyor workspace" > info.txt
-  - type info.txt
+  - echo %USERNAME%
