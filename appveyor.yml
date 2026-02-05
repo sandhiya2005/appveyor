@@ -2,3 +2,6 @@ version: 1.0.{build}
 
 build_script:
   - echo Hello appveyor
+build_script:
+  - echo "This is AppVeyor workspace" > info.txt
+  - type info.txt
