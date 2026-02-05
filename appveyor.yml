@@ -1,11 +1,8 @@
 version: 1.0.{build}
 
+on_success:
+  - echo Build Successful
 
-
-
-
-build_script:
-  - echo Checkout Stage
-  - echo Build Stage
-  - echo Test Stage
+on_failure:
+  - echo Build Failed
 
