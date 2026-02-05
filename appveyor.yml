@@ -1,4 +1,4 @@
 version: 1.0.{build}
-
+build: off
 before_build:
   - del *.class
